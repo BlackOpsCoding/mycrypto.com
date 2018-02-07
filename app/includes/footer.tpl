@@ -8,7 +8,7 @@
     </p>
   </div>
 </section>
-<footer class="footer" role="content" aria-label="footer">
+<footer class="footer" role="content" aria-label="footer" ng-controller="footerCtrl">
 
   <article class="block__wrap" style="max-width: 1780px; margin: auto;">
 
@@ -20,7 +20,7 @@
         MyCrypto is an open-source, client-side tool for interacting with the blockchain more easily. Developed by and for the community since 2015, we’re focused on building awesome products that put the power in people’s hands.
       </p>
       <p class="copyright">
-        © 2018 MyCrypto, Inc.
+        © 2018 MyCrypto, Inc · v{{version}}
       </p>
     </section>
 
